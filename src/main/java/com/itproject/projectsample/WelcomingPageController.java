@@ -45,4 +45,9 @@ public class WelcomingPageController {
         return calculatorService.divide(number1, number2);
 
     }
+
+    @GetMapping
+    public String errorText (@RequestParam ("num1") int number1, @RequestParam("num2") int number2) {
+        return calculatorService.errorText();
+    }
 }

@@ -35,5 +35,13 @@ public class CalculatorServiceImpl implements CalculatorService {
             return number1 + " : " + number2 + " = " + (number1 / number2);
         }
     }
+
+    public String errorText(int number1, int number2) {
+        if (number1 = null || number2 = null) {
+            return " Ошибка!!! Вы забыли добавить еще одно число ";
+
+        }
+        return null;
+    }
 }
 
