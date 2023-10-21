@@ -44,5 +44,6 @@ public class WelcomingPageController {
     public String divide(@RequestParam("num1") int number1, @RequestParam("num2") int number2) {
         return calculatorService.divide(number1, number2);
 
+
     }
 }
