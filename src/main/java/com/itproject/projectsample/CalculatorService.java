@@ -12,6 +12,7 @@ public interface CalculatorService {
     String multiply(int number1, int number2);
 
     String divide(int number1, int number2);
+    String errorText ();
 
 
 }
